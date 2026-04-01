@@ -165,7 +165,7 @@ export const CONTENT = {
       paraQuemCombina: "Homens que gostam de detalhes que fazem a diferença.",
       sensacaoTransmite: "Personalidade, ousadia e estilo.",
       idealPara: "Quem valoriza os detalhes",
-      image: "https://i.postimg.cc/j5CgwmpC/imagem-2026-03-31-203114992.png"
+      image: "https://scontent.fmcz3-1.fna.fbcdn.net/v/t39.30808-6/659639472_122322531908011085_985649734228929976_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_ohc=OGooS7rWD0MQ7kNvwFyFM2H&_nc_oc=AdpN9eFkte68ElP7_bT3KW19aZttPKQMNgY0pNj0VkREHktQE4segQbiX5hx5mwAhMzoNaCiSDdjkf-luSJGG4tD&_nc_zt=23&_nc_ht=scontent.fmcz3-1.fna&_nc_gid=D_QgEGM-fq82738AYskdCw&_nc_ss=7a3a8&oh=00_Af3LiXTlxV4iD4cGP-wsRepTLhdG_i4_IO0ytUTdskA9TQ&oe=69D34C66"
     },
     {
       id: "beard",
@@ -175,7 +175,7 @@ export const CONTENT = {
       paraQuemCombina: "Homens de atitude que valorizam um visual completo e bem cuidado.",
       sensacaoTransmite: "Presença, cuidado e masculinidade.",
       idealPara: "Quem quer um visual completo",
-      image: "https://i.postimg.cc/gJ5Mv4dG/imagem-2026-03-31-203141728.png"
+      image: "https://scontent.fmcz3-1.fna.fbcdn.net/v/t39.30808-6/661067415_122322532436011085_1473820538161046482_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=106&ccb=1-7&_nc_sid=13d280&_nc_ohc=qMbxizcAo_AQ7kNvwGv4XUf&_nc_oc=Adom8Sp3ALd-o_ZTOy5yJwHSV2rsStRThrCaK-7BuXdTNyT0DBHoeT1o7i3qUWnO_DDRlxQ7HLQcRsJ3VFQ-z9Mh&_nc_zt=23&_nc_ht=scontent.fmcz3-1.fna&_nc_gid=VYoXDOzuqDn8imCwG2C-lQ&_nc_ss=7a3a8&oh=00_Af19nFe52f0jmXi-MSKraYoBQ71q3svJD_VKY7ZEyfnpXw&oe=69D33C12"
     },
     {
       id: "clean",

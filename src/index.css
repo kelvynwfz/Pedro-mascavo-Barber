@@ -20,6 +20,7 @@
     @apply bg-charcoal text-ice antialiased selection:bg-orange-burnt selection:text-white;
     font-family: var(--font-sans);
     overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -51,6 +52,25 @@
   .hide-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-white/5 rounded-full;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-orange-burnt/20 rounded-full hover:bg-orange-burnt/40 transition-colors;
+  }
+
+  .mobile-safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .tap-highlight-none {
+    -webkit-tap-highlight-color: transparent;
   }
 }
 

@@ -83,35 +83,60 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu Overlay */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-charcoal border-b border-white/5 overflow-hidden"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-charcoal/95 backdrop-blur-2xl z-[60] md:hidden"
           >
-            <div className="flex flex-col p-6 gap-4">
-              {navItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="text-lg font-medium text-silver hover:text-orange-burnt transition-colors"
-                >
-                  {item.name}
-                </a>
-              ))}
-              <a
-                href={CONTENT.hero.whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+            <div className="flex flex-col h-full p-8 pt-24">
+              <button 
+                className="absolute top-8 right-8 text-ice p-2 bg-white/5 rounded-full border border-white/10"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="w-full py-4 bg-orange-burnt text-ice text-center font-bold rounded-xl uppercase tracking-widest"
               >
-                Agendar Agora
-              </a>
+                <X className="w-8 h-8" />
+              </button>
+
+              <div className="flex flex-col gap-8">
+                {navItems.map((item, index) => (
+                  <motion.a
+                    key={item.name}
+                    href={item.href}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.1 }}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="text-4xl font-bold font-display text-ice hover:text-orange-burnt transition-colors flex items-center justify-between group"
+                  >
+                    <span>{item.name}</span>
+                    <div className="w-12 h-1 bg-orange-burnt scale-x-0 group-hover:scale-x-100 transition-transform origin-left rounded-full" />
+                  </motion.a>
+                ))}
+              </div>
+
+              <div className="mt-auto pb-12">
+                <motion.a
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.5 }}
+                  href={CONTENT.hero.whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="w-full py-6 bg-orange-burnt text-ice text-center font-bold rounded-2xl uppercase tracking-[0.2em] text-lg shadow-[0_20px_40px_rgba(229,102,46,0.3)] block"
+                >
+                  Agendar Agora
+                </motion.a>
+                
+                <div className="mt-8 flex justify-center gap-6 text-silver/40 text-xs uppercase tracking-[0.3em] font-bold">
+                  <span>Maceió, AL</span>
+                  <div className="w-1 h-1 bg-orange-burnt rounded-full self-center" />
+                  <span>Arena Barbearia</span>
+                </div>
+              </div>
             </div>
           </motion.div>
         )}
