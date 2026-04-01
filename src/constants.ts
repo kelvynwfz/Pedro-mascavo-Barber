@@ -194,17 +194,17 @@ export const CONTENT = {
     mainPersonalities: [
       {
         name: "Carlinhos Maia",
-        image: "https://i.postimg.cc/NjpLLXs7/Pedro-mascavo-(carlinhos-maia).jpg",
+        image: "https://scontent.fmcz3-1.fna.fbcdn.net/v/t39.30808-6/658138682_122322534380011085_6607906823133693679_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=13d280&_nc_ohc=3oZVMKWjLi8Q7kNvwESfMEw&_nc_oc=AdoTunH-8CFM1MT07yuXc_YaxEoyGuLXsR81dFR0hRJCYyfMADo0AorU2yI-6YNsPe5qoMuKaSlvChbnUlUKAmup&_nc_zt=23&_nc_ht=scontent.fmcz3-1.fna&_nc_gid=RLmCbi0aoCdBtdqq31BTiA&_nc_ss=7a3a8&oh=00_Af2Yfcu-xREKcAMAbyWpItzulk537pIZf4q8RguuWcMN5w&oe=69D333B5",
         description: "Influenciador & Empresário"
       },
       {
         name: "Pedro Sampaio",
-        image: "https://i.postimg.cc/76p5wyH2/Pedro-mascavo-(Pedro-sampaio).jpg",
+        image: "https://scontent.fmcz3-1.fna.fbcdn.net/v/t39.30808-6/658206573_122322534248011085_196776985886829466_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=13d280&_nc_ohc=QbzRxwumBlQQ7kNvwGTdjCk&_nc_oc=AdquJMMIYX3IL6ThIvBDumVDqzPAPQ0SV_DSA6UI6HPamMfKIacBPtJgaZ883F1VfK2ho_eEpc6gaMuqZESBVlsk&_nc_zt=23&_nc_ht=scontent.fmcz3-1.fna&_nc_gid=KJ4IUGppd4FpmGXuDTWr9g&_nc_ss=7a3a8&oh=00_Af0NEbG9h9XFKgZk_a8XXO0Q3ChUzJeIGJpPbTRNP9Mxbg&oe=69D3347E",
         description: "DJ & Produtor Musical"
       },
       {
         name: "Mano Walter",
-        image: "https://i.postimg.cc/m23Pfq0H/Pedro-mascavo-(mano-walter).jpg",
+        image: "https://scontent.fmcz3-1.fna.fbcdn.net/v/t39.30808-6/660287626_122322534230011085_8023061793507301085_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=13d280&_nc_ohc=hQENmpMLOBIQ7kNvwHjT8pj&_nc_oc=AdrKfzL6qWHmN2tH4ze-vYaTR_w03Tv_B9lcF_Gg6BSeHX676Qj7K1tAKPFKmmZ3Qxhb3I1isJU4_4Q3J6f6BFUF&_nc_zt=23&_nc_ht=scontent.fmcz3-1.fna&_nc_gid=VOHBjwl07qM0Xl7nVu0gIg&_nc_ss=7a3a8&oh=00_Af1Yqf1x_js5ZTEz8R11QtdokQoLbxSdItg3oryehhytOg&oe=69D330E7",
         description: "Cantor & Compositor"
       }
     ],
@@ -223,7 +223,7 @@ export const CONTENT = {
     philosophy: "Cada rosto, cada estilo e cada personalidade exigem atenção aos detalhes. Por isso, cada atendimento é pensado para valorizar aquilo que torna cada cliente único.",
     values: ["Precisão", "Respeito", "Estilo", "Identidade", "Confiança", "Presença"],
     arena: "Atendendo dentro da Arena Barbearia, Pedro une marca pessoal, técnica e experiência premium em um ambiente pensado para o homem moderno.",
-    image: "https://i.postimg.cc/Y91HLcNw/Pedro-mascavo-(apresentacao).jpg",
+    image: "https://scontent.fmcz3-1.fna.fbcdn.net/v/t39.30808-6/659704872_122322536948011085_2328850394757422546_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=13d280&_nc_ohc=Qk9o8Vj92SgQ7kNvwGsB2I0&_nc_oc=AdoVrYzP1DZ5A2uUUH0lMj45Rd9dFPpjcCERsEU99W0Tp6GMIDVfuoECdQo-OAWCjUAa8SYbFoGzo1c0RCZGY8bj&_nc_zt=23&_nc_ht=scontent.fmcz3-1.fna&_nc_gid=igT21_bdoHh_RsD9TsARoQ&_nc_ss=7a3a8&oh=00_Af3a7ZghYuTXFdwYgigYy2O9lFLfcDEdjCdnIBWjseFnRQ&oe=69D33825",
   },
   authority: {
     title: "Presença dentro e fora da cadeira",
@@ -232,19 +232,19 @@ export const CONTENT = {
       {
         name: "Juarez Leite",
         selo: "Referência do setor",
-        image: "https://i.postimg.cc/1R8Rszj6/Pedro-mascavo-(cursos).jpg",
+        image: "https://scontent.fmcz3-1.fna.fbcdn.net/v/t39.30808-6/658859748_122322534506011085_3201152425037411415_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=13d280&_nc_ohc=JVf8VV1u3UAQ7kNvwGIwKbi&_nc_oc=AdqdScbBIFJ3ZsvVKrCYhDApAQmvDGCOy5k9ACQAm_Sp1lXR5QpMXXSMMSh6N6gJnCGcUMKMxq90nO9Bqd-c45uV&_nc_zt=23&_nc_ht=scontent.fmcz3-1.fna&_nc_gid=tzglElEaxlIsOMzv6I-OHA&_nc_ss=7a3a8&oh=00_Af3SIfkAMStryOQXuxfWhZ0UlsPatu-c2chiX8IXvH-M-g&oe=69D3529A",
         text: "Participação em eventos ligados a grandes referências da barbearia, fortalecendo presença profissional e vivência em ambientes de alto nível."
       },
       {
         name: "Seu Elias",
         selo: "Vivência & Reconhecimento",
-        image: "https://i.postimg.cc/CxsSmnzv/imagem-2026-03-31-204643304.png",
+        image: "https://scontent.fmcz3-1.fna.fbcdn.net/v/t39.30808-6/661439975_122322535412011085_1864846330514262350_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=_9TwJgPGXuMQ7kNvwFzHR7P&_nc_oc=AdohYBbFLTsw-PzqfgT2vjOkYc2SLXH4d8qyV96r75sUQhOq2rn3-G0y-cPuB8tQCpjfuyxBZruKYBCYSHqbb5gi&_nc_zt=23&_nc_ht=scontent.fmcz3-1.fna&_nc_gid=nmjD3cC8Zpq1WN3Z3SVE2Q&_nc_ss=7a3a8&oh=00_Af05IIjp-I8KZ3ajbp85rZFDLK5gD0kFpcS6t-nlUihLEA&oe=69D35259",
         text: "Experiência em eventos com nomes respeitados do meio barber, ampliando repertório, visão estética e posicionamento profissional."
       },
       {
         name: "Barber Nordeste",
         selo: "Cena Barber Regional",
-        image: "https://i.postimg.cc/0jSqmbTJ/imagem-2026-03-31-204740913.png",
+        image: "https://scontent.fmcz3-1.fna.fbcdn.net/v/t39.30808-6/660229161_122322535472011085_4756330203154016152_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=13d280&_nc_ohc=JuCq9ntvtpAQ7kNvwG1933n&_nc_oc=AdrEa2p6A1HQMjhfUZk1QXIpX-tMgZO5iWjTTHyPbHAxCMH4breqBuj0yibTlfIRuTFAMUDnerwFAi9eYTvO8s3o&_nc_zt=23&_nc_ht=scontent.fmcz3-1.fna&_nc_gid=Ax9C3NkbhCBqkW9jsm7jiA&_nc_ss=7a3a8&oh=00_Af20YfxlU3rxNiO_HxVvAsxqady26U34m2J_6pFThxX-HA&oe=69D34403",
         text: "Presença em um dos ambientes mais relevantes da cena barber regional, reforçando conexão com o cenário profissional e a cultura da barbearia."
       }
     ],
